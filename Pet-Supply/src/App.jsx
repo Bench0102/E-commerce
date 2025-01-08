@@ -1,17 +1,12 @@
 import './App.css'
-import Header from "./Header"
-import Footer from "./Footer"
-import Food from "./Food"
+import Card from "./Card"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return(
     <>
-
-      <Header/>
-      <Food/>
-      <Footer/>
-
+      <Card/>
     </>
   );
 }
